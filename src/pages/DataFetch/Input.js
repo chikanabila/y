@@ -9,7 +9,7 @@ const Input = () => {
                 const response = await fetch ("https://jsonplaceholder.typicode.com/users");
                 const results = await response.json();
                 setData(results);
-            } catch (error) {
+            } catch (error) { 
                 console.error("Error Menampilkan data", error);
             }
         };
