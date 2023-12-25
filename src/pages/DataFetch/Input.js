@@ -22,7 +22,6 @@ const Input = () => {
             <table>
                 <thead>
                     <tr>
-                        <th>ID</th>
                         <th>Name</th>
                         <th>Username</th>
                         <th>Email</th>
