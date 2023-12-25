@@ -36,7 +36,8 @@ return (
                 </thead>
                 <tbody>
                     {data.map ((user) =>(
-                        <tr key={user.name}>
+                        <tr key={user.id}>
+                            <td>{user.name}</td>
                             <td>{user.username}</td>
                             <td>{user.email}</td>
                             <td>{user.address.street}</td>
