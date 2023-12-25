@@ -34,7 +34,7 @@ const Input = () => {
                         <tr key={user.name}>
                             <td>{user.username}</td>
                             <td>{user.email}</td>
-                            <td>{user.address}</td>
+                            <td>{user.address.street}</td>
                             <td>{user.phone}</td>
                         </tr>
                     ))}
