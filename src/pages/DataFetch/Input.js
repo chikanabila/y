@@ -22,6 +22,7 @@ const Input = () => {
             <table>
                 <thead>
                     <tr>
+                        <th>ID</th>
                         <th>Name</th>
                         <th>Username</th>
                         <th>Email</th>
@@ -31,7 +32,8 @@ const Input = () => {
                 </thead>
                 <tbody>
                     {data.map((user) => (
-                        <tr key={user.name}>
+                        <tr key={user.id}>
+                            <td>{user.name}</td>
                             <td>{user.username}</td>
                             <td>{user.email}</td>
                             <td>{user.address.street}</td>
