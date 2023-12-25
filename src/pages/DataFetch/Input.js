@@ -27,7 +27,6 @@ const Input = () => {
                         <th>Email</th>
                         <th>Address</th>
                         <th>Phone</th>
-                        <th>Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
