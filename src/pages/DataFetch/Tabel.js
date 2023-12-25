@@ -35,12 +35,12 @@ return (
                     </tr>
                 </thead>
                 <tbody>
-                    {data.map ((item) =>(
-                        <tr key={item.name}>
-                            <td>{item.username}</td>
-                            <td>{item.email}</td>
-                            <td>{item.address}</td>
-                            <td>{item.phone}</td>
+                    {data.map ((user) =>(
+                        <tr key={user.name}>
+                            <td>{user.username}</td>
+                            <td>{user.email}</td>
+                            <td>{user.address}</td>
+                            <td>{user.phone}</td>
                         </tr>
                     ))}
                 </tbody>
